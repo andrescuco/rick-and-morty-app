@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.character-card-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border: 2px dotted grey;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.character-image-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.character-info-container {
+  width: 100%;
+  padding-left: 2.5rem;
+  text-align: left;
+}
+
+.character-info-container span {
+  display: block;
+}
+
+.pagination-buttons-container {
+  margin: 1rem;
+}
+
+.pagination-buttons-container button {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  margin: 0.125rem;
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-buttons-container button:disabled {
+  cursor: not-allowed;
+  background-color: lightgrey;
+  color: grey;
+  border: none;
+}
+
+.pagination-buttons-container span {
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.search-container input {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
